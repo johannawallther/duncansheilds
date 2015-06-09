@@ -1,0 +1,368 @@
+/* This file will hold styles for the mobile version of your website (mobile first). */
+/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+
+
+/* Duncan Shields Website */
+
+/* colours: dark grey #4d4d4d, light grey #838383 */
+
+/* Page layout */
+
+.node-page .field-name-field-image {
+	width: 460px;
+	float: right;
+	margin-left: 20px;
+}
+
+.site-name-slogan {
+	float: none;
+}
+.front #page-title {
+	display: none;
+}
+ul li p {
+    margin-bottom: 0;
+}
+ul li {
+    margin-left: 10px;
+}
+/* Fonts and headings */
+
+body {
+	font-family: Josefine Sans;
+	font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: EB Garamond;
+    letter-spacing: 0.03em; /*reset from Omega*/
+	color: #4d4d4d;
+}
+h1 {
+	font-size: 40px;
+	line-height: inherit;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+h2 {
+	color: #4d4d4d;
+	font-size: 20px;
+}
+h1.site-name, h2.site-name {
+	color: #4d4d4d;
+	font-family: EB Garamond;
+	font-size: 80px;
+	text-align: center;
+}
+h1.site-name a, h2.site-name a {
+	color: #4d4d4d;
+}
+h1.site-name a:hover, h2.site-name a:hover {
+	text-decoration: none;
+}
+.nice-menu {
+	font-family: Josefin Sans;
+	font-size: 18px;
+	font-weight: 400;
+	letter-spacing: 0.1em;
+}
+h2.node-title {
+	font-size: 20px;
+	color: #4d4d4d;
+}
+
+/* Links */
+
+a:link, a:visited{
+	text-decoration: none;
+	color: #808080;
+}
+ul.nice-menu a:link {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+	color: #4d4d4d;
+}
+a:link a.active {
+	color: #4d4d4d;
+	font-weight: bold;
+}
+.node-links ul li a,
+.node-links ul li a:hover {
+	border-style: none;
+	background: none;
+	text-shadow: none;
+	font-family: PT Sans;
+	color: grey;
+    display: block;
+    font-size: 90%;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+.btn-left {
+	float: left;
+	display: inline-block;
+	margin: 20px 0 20px 20px;
+}
+.btn-left a, .btn-right a {
+	font-family: Josefin Sans;
+}
+.btn-right {
+	float: right;
+	display: inline-block;
+	margin: 0 20px 20px 0;
+}
+.btn-left a,.btn-right a {
+	position: absolute;
+	width: 100px;
+}
+.btn-right a {
+    bottom: 20px;
+    right: 0;
+}
+.btn-left a {
+    bottom: 20px;
+    left: 20px;
+}
+/* Nice Menu */
+
+ul.nice-menu a:hover {
+    color: black;
+    background-color: white;
+}
+ul.nice-menu a,
+ul.nice-menu li.active-trail li a  {
+    color: #838383;
+}	
+ul.nice-menu li.a.active,
+ul.nice-menu li.active-trail a {
+	color: black;
+}
+ul.nice-menu li {
+	padding: 1.2em 0;
+}
+ul.nice-menu li a:hover,
+ul.nice-menu li.menuparent:hover {
+	background: rgba(0, 0, 0, 0) url("../images/greyarrow_up.png") no-repeat scroll center 100%;
+}
+ul.nice-menu li li a {
+	padding-top: 15px;
+}
+ul.nice-menu-down li.menuparent {
+	background: none;
+}
+ul.nice-menu li li a:hover {
+	background: rgba(0, 0, 0, 0) url("../images/greyarrow_down.png") no-repeat scroll center 	0%;
+	height: 1em;
+}
+ul.nice-menu a {
+	padding: 0.5em 0;
+}
+.nice-menu li a {
+	padding: 0.7em 0;
+}
+ul.nice-menu-down .menuparent a {
+	padding: 0.7em;
+}
+.nice-menu .menuparent ul li a {
+    padding: 0.7em;
+}
+ul.nice-menu-down li.menuparent,
+ul.nice-menu-down li.menuparent:hover,
+ul.nice-menu-down li,
+ul.nice-menu-down ul,
+ul.nice-menu li {
+    background-color: white;
+    border: none;
+    border-color: none;
+}
+ul.nice-menu-down {
+	margin-top: 18px;
+}
+.block-nice-menus {
+	text-align: center;
+}
+ul.nice-menu-down li {
+   position: static;
+	display: inline;
+	padding: 0 20px;
+ }
+ul.nice-menu-down ul li {
+  clear: none;
+}
+ul.nice-menu ul li {
+	width: auto;
+}
+ul.nice-menu li.menuparent ul {
+  margin-top: 17px;
+}
+.zone-content {
+	padding-top: 20px
+}
+.zone-menu-wrapper {
+	border-bottom: 5px solid #e6e6e6;
+}
+ul.nice-menu-down {
+	position: relative;
+}
+.menu-path-node-1.first.odd {
+	padding-left: 25px;
+}
+ul.nice-menu-down li.menuparent {
+	background: none;
+}
+/*ul.nice-menu li:hover {
+	border-top: 5px solid #e6e6e6;
+	margin-top: -2px;
+}*/
+/*ul.nice-menu-down li:hover {
+	background-image: url ("../images/greyarrow_up.png");
+	width: 20px;
+	height: 10px;
+	position: absolute;
+	float: none;
+	bottom: 0;
+}*/
+.block-nice-menus {
+	width: 50em;
+	margin: auto;
+}
+
+/* Footer */
+
+#zone-footer-wrapper {
+	border-top: 5px solid #e6e6e6;
+	margin-top: 20px;
+}
+.region-footer-first .block-5 {
+	text-align: center;
+	font-family: Josefin Sans;
+	margin: 20px;
+	color:#838383;
+	letter-spacing: 0.1em;
+}
+
+/* Blog */
+
+.view-blog .views-row {
+	width: 300px;
+	height: 480px;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+.view-blog .views-row-3,
+.view-blog .views-row-6,
+.view-blog .views-row-9,
+.view-blog .views-row-12 {
+	margin-right: 0px;
+}
+.node-blog .field-name-field-image {
+	float: left;
+	margin-right: 20px;
+}
+.view-blog .node-blog,
+.block-block-3, .block-block-4, .block-block-2, .block-block-1 {
+	background-color: #e6e6e6;
+	margin-top: 20px;
+	width: 300px;
+}
+.block-block-1 {
+	height: 427px;
+}
+.region-preface-first, .region-preface-second, .region-preface-third, .region-postscript-first {
+	float: left;
+}
+.view-blog .field-name-field-image {
+	margin-bottom: 20px;
+}
+.view-blog .field-name-body,
+.view-blog .submitted-by,
+.block-block-1 h2, .block-block-2 h2, .block-block-3 h2, .block-block-4 h2 {
+	margin-right: 20px;
+	margin-left: 20px;
+}
+.block-block-1 strong, .block-block-2 strong, .block-block-3 strong, .block-block-4 strong {
+	font-weight: normal;
+	padding-right: 20px;
+	padding-left: 20px;
+	display: inline-block;
+}
+.submitted-by,
+.view-blog .field-name-node-link,
+.block-block-1 .btn a, .block-block-2 a.btn, .block-block-3 .btn a, .block-block-4 a.btn {
+	font-family: Josefin Sans;
+	color: #808080;
+	margin-bottom: 20px;
+}
+.view-blog .field-name-node-link,
+.block-block-1 .btn a, .block-block-2 a.btn, .block-block-3 .btn a, .block-block-4 a.btn {
+	float: right;
+	margin-right: 20px;
+	bottom: 20px;
+}
+.view-blog .field-name-title {
+	margin-left: 20px;
+}
+
+/* Slideshow */
+
+.flexslider .slides > li {
+	display: block;
+	float: left;
+	background-color: white;
+}
+.flexslider .slides img {
+	float: left;
+}
+.flexslider .slides img {
+	width: auto;
+	float: none;
+	margin: auto;
+}
+.caption {
+    bottom: 0;
+    margin: auto;
+    padding: 20px;
+ 	position: relative;
+ 	width: 400px;
+	display: none;
+}
+.flexslider:hover .caption {
+	display: block;
+}
+.caption a {
+	color: #838383;
+}
+.flex-direction-nav a {
+	overflow: visible;
+}
+/*.flexslider .slides p {
+	position: absolute;
+	bottom: 10px;
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.3);
+	color: white;
+	width: auto;
+}
+*/
+.flexslider-1 {
+	height: 720px;
+}
+.flexslider {
+	border: none;
+	border-radius: none;
+	box-shadow: none;
+}
+ 
+/* Galleries */
+
+.view-portrait-photography img,
+.view-wedding-photography img,
+.view-other-photography img,
+view-wet-plate-photography img {
+	display: inline-block;
+	float: left;
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
