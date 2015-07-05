@@ -26,6 +26,9 @@ ul li p {
 ul li {
     margin-left: 10px;
 }
+.flexslider ul li {
+	margin-left: 0;
+}
 /* Fonts and headings */
 
 body {
