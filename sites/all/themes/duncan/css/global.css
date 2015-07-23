@@ -26,6 +26,9 @@ ul li p {
 ul li {
     margin-left: 10px;
 }
+.flexslider ul li {
+	margin-left: 0;
+}
 /* Fonts and headings */
 
 body {
@@ -127,6 +130,15 @@ a:link a.active {
 }
 /* Nice Menu */
 
+.block-nice-menus {
+	height: 3.9em;
+}
+.nice-menu {
+	display: inline-block;
+}
+ul.nice-menu-down {
+	float: none;
+}
 ul.nice-menu a:hover {
     color: black;
     background-color: white;
@@ -282,6 +294,7 @@ ul.nice-menu-down li.menuparent {
 .block-block-1 h2, .block-block-2 h2, .block-block-3 h2, .block-block-4 h2 {
 	margin-right: 20px;
 	margin-left: 20px;
+	float: left;
 }
 .block-block-1 strong, .block-block-2 strong, .block-block-3 strong, .block-block-4 strong {
 	font-weight: normal;
@@ -365,4 +378,49 @@ view-wet-plate-photography img {
 	float: left;
 	margin-bottom: 10px;
 	margin-right: 10px;
+}
+table {
+	border: none;
+}
+tr: hover td, 
+tr.even:hover td.active, 
+tr.odd:hover td.active {
+	background: none;
+}
+
+/* Pager */
+
+.pager {
+	background: none;
+	border: none;
+}
+.pager li {
+	color: #838383;
+	font: 14px Josefin Sans;
+	border: none;
+}
+.pager li a {
+	background: #fff none repeat scroll 0 0;
+}
+.pager li.pager-first a, 
+.pager li.pager-previous a, 
+.pager li.pager-next a, 
+.pager li.pager-last a {
+	padding: 0 none;
+	width: none;
+}
+.pager li.pager-last, 
+.pager li.pager-last a, 
+.pager li.pager-last a:hover,
+.pager li.first, 
+.pager li.first a, 
+.pager li.first a:hover {
+	border-radius: none;
+}
+.pager li.pager-current {
+	background: black none repeat scroll 0 0;
+	color: #fff;
+}
+.pager li.pager-next {
+	border: none;
 }
