@@ -415,7 +415,7 @@ tr.odd:hover td.active {
 .pager li.first, 
 .pager li.first a, 
 .pager li.first a:hover {
-	border-radius: none;
+	border-radius: 0 none;
 }
 .pager li.pager-current {
 	background: black none repeat scroll 0 0;
@@ -423,4 +423,11 @@ tr.odd:hover td.active {
 }
 .pager li.pager-next {
 	border: none;
+}
+.item-list .pager li, 
+.item-list .pager ul li {
+	float: none;
+}
+.item-list .pager {
+	text-align: center;
 }
