@@ -7,3 +7,9 @@
  	position: relative;
  	width: 400px;
  }
+ ul.nice-menu-down {
+ 	float: left;
+ }
+ ul.nice-menu-down li {
+ 	padding: 0 15px;
+ }

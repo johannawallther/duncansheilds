@@ -4,3 +4,20 @@
 	position: absolute;
 	width: 180px;
 }
+.block-nice-menus {
+	height: 3.9em
+}
+.nice-menu {
+	letter-spacing: 0.1em;
+}
+.menu-path-node-1.first.odd {
+	padding-left: 25px;
+}
+ul.nice-menu-down li {
+	padding: 0 20px;
+	display: inline;
+}
+ul.nice-menu-down {
+	float: none;
+	width: auto;
+}

@@ -4,3 +4,9 @@
 	position: absolute;
 	width: 180px;
 }
+ul.nice-menu-down {
+	float: none;
+}
+ul.nice-menu-down li {
+ 	padding: 0 20px;
+ }

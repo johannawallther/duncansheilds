@@ -67,7 +67,7 @@ h1.site-name a:hover, h2.site-name a:hover {
 	font-family: Josefin Sans;
 	font-size: 18px;
 	font-weight: 400;
-	letter-spacing: 0.1em;
+	letter-spacing: 0em;
 }
 h2.node-title {
 	font-size: 20px;
@@ -132,12 +132,31 @@ a:link a.active {
 
 .block-nice-menus {
 	height: 3.9em;
+	width: 100%;
+	text-align: center;
+	margin: auto;
 }
 .nice-menu {
 	display: inline-block;
 }
 ul.nice-menu-down {
-	float: none;
+	float: left;
+	width: 100%;
+	margin-top: 18px;
+}
+ul.nice-menu-down li {
+   position: static;
+	display: inline;
+	padding: 0 5px;
+}
+ul.nice-menu-down ul li {
+  clear: none;
+}
+ul.nice-menu ul li {
+	width: auto;
+}
+ul.nice-menu li.menuparent ul {
+  margin-top: 17px;
 }
 ul.nice-menu a:hover {
     color: black;
@@ -189,26 +208,6 @@ ul.nice-menu li {
     border: none;
     border-color: none;
 }
-ul.nice-menu-down {
-	margin-top: 18px;
-}
-.block-nice-menus {
-	text-align: center;
-}
-ul.nice-menu-down li {
-   position: static;
-	display: inline;
-	padding: 0 20px;
- }
-ul.nice-menu-down ul li {
-  clear: none;
-}
-ul.nice-menu ul li {
-	width: auto;
-}
-ul.nice-menu li.menuparent ul {
-  margin-top: 17px;
-}
 .zone-content {
 	padding-top: 20px
 }
@@ -219,7 +218,7 @@ ul.nice-menu-down {
 	position: relative;
 }
 .menu-path-node-1.first.odd {
-	padding-left: 25px;
+	padding-left: 0;
 }
 ul.nice-menu-down li.menuparent {
 	background: none;
@@ -236,10 +235,7 @@ ul.nice-menu-down li.menuparent {
 	float: none;
 	bottom: 0;
 }*/
-.block-nice-menus {
-	width: 50em;
-	margin: auto;
-}
+
 
 /* Footer */
 
@@ -401,6 +397,11 @@ tr.odd:hover td.active {
 }
 .pager li a {
 	background: #fff none repeat scroll 0 0;
+}
+.pager li a:hover {
+	background: #838383 none repeat scroll 0 0;
+	color: #fff;
+	font-weight: bold;
 }
 .pager li.pager-first a, 
 .pager li.pager-previous a, 
