@@ -415,7 +415,7 @@ tr.odd:hover td.active {
 .pager li.first, 
 .pager li.first a, 
 .pager li.first a:hover {
-	border-radius: 0 none;
+	border-radius: 0 0 0 0;
 }
 .pager li.pager-current {
 	background: black none repeat scroll 0 0;
