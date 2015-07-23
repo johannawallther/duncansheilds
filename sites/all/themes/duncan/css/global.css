@@ -369,7 +369,7 @@ ul.nice-menu-down li.menuparent {
 .view-portrait-photography img,
 .view-wedding-photography img,
 .view-other-photography img,
-view-wet-plate-photography img {
+.view-wet-plate-photography img {
 	display: inline-block;
 	float: left;
 	margin-bottom: 10px;
