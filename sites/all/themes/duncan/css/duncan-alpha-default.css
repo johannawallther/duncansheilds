@@ -34,9 +34,16 @@ ul.nice-menu-down li {
     display: inline;
     padding: 0 5px;
 }
+.nice-menu li a {
+	padding: 0.7em 0;
+}
 ul.nice-menu li li a:hover {
 	background: rgba(0, 0, 0, 0) url("../images/greyarrow_down.png") no-repeat scroll center 	0%;
 	height: 1em;
+}
+ul.nice-menu li a:hover,
+ul.nice-menu li.menuparent:hover {
+	background: rgba(0, 0, 0, 0) url("../images/greyarrow_up.png") no-repeat scroll center 100%;
 }
 h1.site-name, h2.site-name {
 	font-size: 80px;
@@ -53,4 +60,13 @@ h1.site-name, h2.site-name {
 .block-block-2, 
 .block-block-1 {
 	width: 300px;
+}
+.flex-control-nav {
+	display: block;
+}
+.flexslider .caption {
+	display: none;
+}
+.flexslider:hover .caption {
+	display: block;
 }

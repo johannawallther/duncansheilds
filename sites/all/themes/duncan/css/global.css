@@ -173,21 +173,14 @@ ul.nice-menu li.active-trail a {
 ul.nice-menu li {
 	padding: 1.2em 0;
 }
-ul.nice-menu li a:hover,
-ul.nice-menu li.menuparent:hover {
-	background: rgba(0, 0, 0, 0) url("../images/greyarrow_up.png") no-repeat scroll center 100%;
-}
 ul.nice-menu li li a {
 	padding-top: 15px;
 }
 ul.nice-menu-down li.menuparent {
 	background: none;
 }
-ul.nice-menu a {
-	padding: 0.5em 0;
-}
 .nice-menu li a {
-	padding: 0.7em 0;
+	padding: 0;
 }
 ul.nice-menu-down .menuparent a {
 	padding: 0.7em;
@@ -333,7 +326,7 @@ ul.nice-menu ul li {
  	width: 400px;
 	display: none;
 }
-.flexslider:hover .caption {
+.flexslider .caption {
 	display: block;
 }
 .caption a {
@@ -355,6 +348,9 @@ ul.nice-menu ul li {
 }
 .block-views-gallery-portrait-block-2 img {
 	height: 250px;
+}
+.flex-control-nav {
+	display: none;
 }
 
 /* Photography pages */
