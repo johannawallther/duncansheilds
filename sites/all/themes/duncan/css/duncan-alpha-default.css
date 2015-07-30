@@ -70,3 +70,6 @@ h1.site-name, h2.site-name {
 .flexslider:hover .caption {
 	display: block;
 }
+.caption {
+	width: 400px;
+}

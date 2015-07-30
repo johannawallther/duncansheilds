@@ -215,6 +215,9 @@ ul.nice-menu-down li.menuparent {
 ul.nice-menu li {
 	padding: 0 none;
 }
+.nice-menu li a {
+	padding: 0.5em;
+}
 ul.nice-menu li {
     float: none;
 }
@@ -323,7 +326,7 @@ ul.nice-menu ul li {
     margin: auto;
     padding: 20px;
  	position: relative;
- 	width: 400px;
+ 	width: 100%;
 	display: none;
 }
 .flexslider .caption {
@@ -346,8 +349,8 @@ ul.nice-menu ul li {
 .block-views-gallery-portrait-block-1 {
 	display: none;
 }
-.block-views-gallery-portrait-block-2 img {
-	height: 250px;
+.flexslider .slides img {
+	width: 100%
 }
 .flex-control-nav {
 	display: none;
