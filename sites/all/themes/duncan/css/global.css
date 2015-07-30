@@ -54,7 +54,7 @@ h2 {
 h1.site-name, h2.site-name {
 	color: #4d4d4d;
 	font-family: EB Garamond;
-	font-size: 80px;
+	font-size: 45px;
 	text-align: center;
 }
 h1.site-name a, h2.site-name a {
@@ -183,10 +183,6 @@ ul.nice-menu li li a {
 ul.nice-menu-down li.menuparent {
 	background: none;
 }
-ul.nice-menu li li a:hover {
-	background: rgba(0, 0, 0, 0) url("../images/greyarrow_down.png") no-repeat scroll center 	0%;
-	height: 1em;
-}
 ul.nice-menu a {
 	padding: 0.5em 0;
 }
@@ -223,19 +219,18 @@ ul.nice-menu-down {
 ul.nice-menu-down li.menuparent {
 	background: none;
 }
-/*ul.nice-menu li:hover {
-	border-top: 5px solid #e6e6e6;
-	margin-top: -2px;
-}*/
-/*ul.nice-menu-down li:hover {
-	background-image: url ("../images/greyarrow_up.png");
-	width: 20px;
-	height: 10px;
-	position: absolute;
-	float: none;
-	bottom: 0;
-}*/
-
+ul.nice-menu li {
+	padding: 0 none;
+}
+ul.nice-menu li {
+    float: none;
+}
+ul.nice-menu-down li {
+    padding: 0 none;
+}
+ul.nice-menu ul li {
+	display: none;
+}
 
 /* Footer */
 
@@ -347,14 +342,6 @@ ul.nice-menu-down li.menuparent {
 .flex-direction-nav a {
 	overflow: visible;
 }
-/*.flexslider .slides p {
-	position: absolute;
-	bottom: 10px;
-	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.3);
-	color: white;
-	width: auto;
-}
-*/
 .flexslider-1 {
 	height: 720px;
 }
@@ -363,9 +350,22 @@ ul.nice-menu-down li.menuparent {
 	border-radius: none;
 	box-shadow: none;
 }
- 
-/* Galleries */
+.block-views-gallery-portrait-block-1 {
+	display: none;
+}
+.block-views-gallery-portrait-block-2 img {
+	height: 250px;
+}
 
+/* Photography pages */
+
+.view-blog .node-blog, 
+.block-block-3, 
+.block-block-4, 
+.block-block-2, 
+.block-block-1 {
+	width: 100%;
+}
 .view-portrait-photography img,
 .view-wedding-photography img,
 .view-other-photography img,
@@ -403,27 +403,15 @@ tr.odd:hover td.active {
 	color: #fff;
 	font-weight: bold;
 }
-.pager li.pager-first a, 
-.pager li.pager-previous a, 
-.pager li.pager-next a, 
-.pager li.pager-last a {
-	padding: 0 none;
-	width: none;
-}
-.pager li.pager-last, 
-.pager li.pager-last a, 
-.pager li.pager-last a:hover,
-.pager li.first, 
-.pager li.first a, 
-.pager li.first a:hover {
-	border-radius: 0 0 0 0;
+.pager li.pager-first, 
+.pager li.pager-previous, 
+.pager li.pager-next, 
+.pager li.pager-last {
+	display: none;
 }
 .pager li.pager-current {
 	background: black none repeat scroll 0 0;
 	color: #fff;
-}
-.pager li.pager-next {
-	border: none;
 }
 .item-list .pager li, 
 .item-list .pager ul li {

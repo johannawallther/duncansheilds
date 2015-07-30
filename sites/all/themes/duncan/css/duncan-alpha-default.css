@@ -17,7 +17,40 @@ ul.nice-menu-down li {
 	padding: 0 20px;
 	display: inline;
 }
+ul.nice-menu ul li {
+	display: block;
+}
 ul.nice-menu-down {
 	float: none;
 	width: auto;
+}
+ul.nice-menu li {
+    padding: 1.2em 0;
+}
+ul.nice-menu li {
+    float: left;
+}
+ul.nice-menu-down li {
+    display: inline;
+    padding: 0 5px;
+}
+ul.nice-menu li li a:hover {
+	background: rgba(0, 0, 0, 0) url("../images/greyarrow_down.png") no-repeat scroll center 	0%;
+	height: 1em;
+}
+h1.site-name, h2.site-name {
+	font-size: 80px;
+}
+.block-views-gallery-portrait-block-1 {
+	display: block;
+}
+.block-views-gallery-portrait-block-2 img {
+	height: 720px;
+}
+.view-blog .node-blog, 
+.block-block-3, 
+.block-block-4, 
+.block-block-2, 
+.block-block-1 {
+	width: 300px;
 }
