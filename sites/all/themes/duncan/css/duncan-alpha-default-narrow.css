@@ -16,8 +16,10 @@
  .block-views-gallery-portrait-block-2 img {
 	height: 500px;
 }
-.container-12 .grid-4 {
-	width: auto; !important
+.region-preface-first .equal-height-element,
+.region-preface-second .equal-height-element,
+.region-preface-third .equal-height-element {
+	width: auto;
 }
 .view-blog .node-blog, 
 .block-block-3, 

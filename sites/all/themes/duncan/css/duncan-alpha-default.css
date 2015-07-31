@@ -67,7 +67,7 @@ h1.site-name, h2.site-name {
 .flex-control-nav {
 	display: block;
 }
-block-views-gallery-portrait-block-2 .flex-direction-nav {
+#flexslider-1 .flex-direction-nav {
 	display: none;
 }
 .flexslider .caption {
