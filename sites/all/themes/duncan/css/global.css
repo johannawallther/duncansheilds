@@ -265,7 +265,16 @@ ul.nice-menu ul li {
 .block-block-3, .block-block-4, .block-block-2, .block-block-1 {
 	background-color: #e6e6e6;
 	margin-top: 20px;
+} 
+.view-blog .node-blog {
 	width: 300px;
+}
+.block-block-3, 
+.block-block-4, 
+.block-block-2, 
+.block-block-1,
+.region-postscript-first {
+	width: 100%;
 }
 .block-block-1 {
 	height: 427px;
@@ -358,14 +367,6 @@ ul.nice-menu ul li {
 
 /* Photography pages */
 
-.view-blog .node-blog, 
-.block-block-3, 
-.block-block-4, 
-.block-block-2, 
-.block-block-1,
-.region-postscript-first {
-	width: 100%;
-}
 .view-portrait-photography img,
 .view-wedding-photography img,
 .view-other-photography img,
