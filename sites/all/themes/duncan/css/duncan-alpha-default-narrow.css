@@ -17,7 +17,7 @@
 	height: 500px;
 }
 .container-12 .grid-4 {
-	width: auto;
+	width: auto; !important
 }
 .view-blog .node-blog, 
 .block-block-3, 
