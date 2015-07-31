@@ -245,7 +245,7 @@ ul.nice-menu ul li {
 /* Blog */
 
 .view-blog .views-row {
-	width: 300px;
+	width: auto;
 	height: 480px;
 	float: left;
 	margin-right: 20px;
@@ -255,7 +255,7 @@ ul.nice-menu ul li {
 .view-blog .views-row-6,
 .view-blog .views-row-9,
 .view-blog .views-row-12 {
-	margin-right: 0px;
+	margin-right: 20px;
 }
 .node-blog .field-name-field-image {
 	float: left;
@@ -362,7 +362,8 @@ ul.nice-menu ul li {
 .block-block-3, 
 .block-block-4, 
 .block-block-2, 
-.block-block-1 {
+.block-block-1,
+.region-postscript-first {
 	width: 100%;
 }
 .view-portrait-photography img,

@@ -61,8 +61,14 @@ h1.site-name, h2.site-name {
 .block-block-1 {
 	width: 300px;
 }
+.region-postscript-first {
+	width: auto;
+}
 .flex-control-nav {
 	display: block;
+}
+.flex-direction-nav {
+	display: none;
 }
 .flexslider .caption {
 	display: none;
@@ -75,4 +81,13 @@ h1.site-name, h2.site-name {
 }
 .flexslider .slides img {
 	width: auto;
+}
+.view-blog .views-row {
+	width: 300px;
+}
+.view-blog .views-row-3, 
+.view-blog .views-row-6, 
+.view-blog .views-row-9, 
+.view-blog .views-row-12 {
+	margin-right: 0;
 }

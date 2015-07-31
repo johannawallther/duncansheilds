@@ -13,3 +13,9 @@ ul.nice-menu-down li {
  .block-views-gallery-portrait-block-2 img {
 	height: 720px;
 }
+.view-blog .views-row-3, 
+.view-blog .views-row-6, 
+.view-blog .views-row-9, 
+.view-blog .views-row-12 {
+	margin-right: 0;
+}
