@@ -73,3 +73,6 @@ h1.site-name, h2.site-name {
 .caption {
 	width: 400px;
 }
+.flexslider .slides img {
+	width: auto;
+}

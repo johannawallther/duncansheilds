@@ -16,3 +16,19 @@
  .block-views-gallery-portrait-block-2 img {
 	height: 500px;
 }
+.container-12 .grid-4 {
+	width: auto;
+}
+.view-blog .node-blog, 
+.block-block-3, 
+.block-block-4, 
+.block-block-2, 
+.block-block-1 {
+	width: 300px;
+}
+.view-blog .views-row-3, 
+.view-blog .views-row-6, 
+.view-blog .views-row-9, 
+.view-blog .views-row-12 {
+	margin-right: 20px;
+}
