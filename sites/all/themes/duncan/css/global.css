@@ -245,7 +245,7 @@ ul.nice-menu ul li {
 /* Blog */
 
 .view-blog .views-row {
-	width: auto;
+	width: 300px;
 	height: 480px;
 	float: left;
 	margin-right: 20px;
@@ -276,9 +276,9 @@ ul.nice-menu ul li {
 .region-postscript-first {
 	width: 100%;
 }
-.block-block-1 {
+/*.block-block-1 {
 	height: 427px;
-}
+}*/
 .region-preface-first, .region-preface-second, .region-preface-third, .region-postscript-first {
 	float: left;
 }
