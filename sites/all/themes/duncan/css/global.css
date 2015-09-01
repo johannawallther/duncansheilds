@@ -131,7 +131,7 @@ a:link a.active {
 /* Nice Menu */
 
 .block-nice-menus {
-	height: 3.9em;
+	height: 100%;
 	width: 100%;
 	text-align: center;
 	margin: auto;

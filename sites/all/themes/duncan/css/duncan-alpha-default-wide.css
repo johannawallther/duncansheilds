@@ -19,3 +19,11 @@ ul.nice-menu-down li {
 .view-blog .views-row-12 {
 	margin-right: 0;
 }
+.view-blog .node-blog, 
+.block-block-3, 
+.block-block-4, 
+.block-block-2, 
+.block-block-1 {
+	width: 300px;
+	height: auto;
+}
