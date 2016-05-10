@@ -13,17 +13,19 @@ ul.nice-menu-down li {
  .block-views-gallery-portrait-block-2 img {
 	height: 720px;
 }
-.view-blog .views-row-3, 
-.view-blog .views-row-6, 
-.view-blog .views-row-9, 
+.view-blog .views-row-3,
+.view-blog .views-row-6,
+.view-blog .views-row-9,
 .view-blog .views-row-12 {
 	margin-right: 0;
 }
-.view-blog .node-blog, 
-.block-block-3, 
-.block-block-4, 
-.block-block-2, 
+.view-blog .node-blog,
+.block-block-3,
+.block-block-4,
+.block-block-2,
 .block-block-1 {
 	width: 300px;
+}
+.view-blog .node-blog {
 	height: auto;
 }

@@ -165,7 +165,7 @@ ul.nice-menu a:hover {
 ul.nice-menu a,
 ul.nice-menu li.active-trail li a  {
     color: #838383;
-}	
+}
 ul.nice-menu li.a.active,
 ul.nice-menu li.active-trail a {
 	color: black;
@@ -265,13 +265,13 @@ ul.nice-menu ul li {
 .block-block-3, .block-block-4, .block-block-2, .block-block-1 {
 	background-color: #e6e6e6;
 	margin-top: 20px;
-} 
+}
 .view-blog .node-blog {
 	width: 300px;
 }
-.block-block-3, 
-.block-block-4, 
-.block-block-2, 
+.block-block-3,
+.block-block-4,
+.block-block-2,
 .block-block-1,
 .region-postscript-first {
 	width: 100%;
@@ -379,8 +379,8 @@ ul.nice-menu ul li {
 table {
 	border: none;
 }
-tr: hover td, 
-tr.even:hover td.active, 
+tr: hover td,
+tr.even:hover td.active,
 tr.odd:hover td.active {
 	background: none;
 }
@@ -404,9 +404,9 @@ tr.odd:hover td.active {
 	color: #fff;
 	font-weight: bold;
 }
-.pager li.pager-first, 
-.pager li.pager-previous, 
-.pager li.pager-next, 
+.pager li.pager-first,
+.pager li.pager-previous,
+.pager li.pager-next,
 .pager li.pager-last {
 	display: none;
 }
@@ -414,7 +414,7 @@ tr.odd:hover td.active {
 	background: black none repeat scroll 0 0;
 	color: #fff;
 }
-.item-list .pager li, 
+.item-list .pager li,
 .item-list .pager ul li {
 	float: none;
 }
