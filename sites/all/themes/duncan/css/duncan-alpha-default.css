@@ -53,10 +53,10 @@ h1.site-name, h2.site-name {
 }
 .block-views-gallery-portrait-block-2 img {
 	height: 720px;
-} 
-.block-block-3, 
-.block-block-4, 
-.block-block-2, 
+}
+.block-block-3,
+.block-block-4,
+.block-block-2,
 .block-block-1 {
 	width: 300px;
 }
@@ -84,9 +84,9 @@ h1.site-name, h2.site-name {
 .view-blog .views-row {
 	width: 300px;
 }
-.view-blog .views-row-3, 
-.view-blog .views-row-6, 
-.view-blog .views-row-9, 
+.view-blog .views-row-3,
+.view-blog .views-row-6,
+.view-blog .views-row-9,
 .view-blog .views-row-12 {
 	margin-right: 0;
 }
