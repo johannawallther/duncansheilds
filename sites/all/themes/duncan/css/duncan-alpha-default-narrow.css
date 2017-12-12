@@ -1,8 +1,8 @@
 /* This file will hold styles that are loaded using the same media query as the narrow grid. */
 /* If you are using the default media queries provided by Omega, these styles will also
- *  apply to the normal and widescreen layouts. You may override these styles in the normal 
+ *  apply to the normal and widescreen layouts. You may override these styles in the normal
  *  and widescreen CSS files as appropriate. */
- 
+
  .caption {
  	position: relative;
  	width: 400px;
@@ -21,17 +21,17 @@
 .region-preface-third .equal-height-element {
 	width: auto;
 }
-.view-blog .node-blog, 
-.block-block-3, 
-.block-block-4, 
-.block-block-2, 
+.view-blog .node-blog,
+.block-block-3,
+.block-block-4,
+.block-block-2,
 .block-block-1 {
 	width: auto;
-	height: 415px;
+	height: 330px;
 }
-.view-blog .views-row-3, 
-.view-blog .views-row-6, 
-.view-blog .views-row-9, 
+.view-blog .views-row-3,
+.view-blog .views-row-6,
+.view-blog .views-row-9,
 .view-blog .views-row-12 {
 	margin-right: 20px;
 }

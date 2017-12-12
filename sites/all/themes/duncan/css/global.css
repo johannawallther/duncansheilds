@@ -149,9 +149,9 @@ ul.nice-menu-down li {
 	display: inline;
 	padding: 0 5px;
 }
-ul.nice-menu-down ul li {
+/*ul.nice-menu-down ul li {
   clear: none;
-}
+}*/
 ul.nice-menu ul li {
 	width: auto;
 }
@@ -262,7 +262,8 @@ ul.nice-menu ul li {
 	margin-right: 20px;
 }
 .view-blog .node-blog,
-.block-block-3, .block-block-4, .block-block-2, .block-block-1 {
+.block-block-3, .block-block-4, .block-block-2, .block-block-1,
+.block-block-6, .block-block-7 {
 	background-color: #e6e6e6;
 	margin-top: 20px;
 }
@@ -273,13 +274,15 @@ ul.nice-menu ul li {
 .block-block-4,
 .block-block-2,
 .block-block-1,
+.block-block-6, .block-block-7,
 .region-postscript-first {
 	width: 100%;
 }
 /*.block-block-1 {
 	height: 427px;
 }*/
-.region-preface-first, .region-preface-second, .region-preface-third, .region-postscript-first {
+.region-preface-first, .region-preface-second, .region-preface-third, .region-postscript-first,
+.region-postscript-second, .region-postscript-third {
 	float: left;
 }
 .view-blog .field-name-field-image {
@@ -287,7 +290,8 @@ ul.nice-menu ul li {
 }
 .view-blog .field-name-body,
 .view-blog .submitted-by,
-.block-block-1 h2, .block-block-2 h2, .block-block-3 h2, .block-block-4 h2 {
+.block-block-1 h2, .block-block-2 h2, .block-block-3 h2, .block-block-4 h2,
+.block-block-6 h2, .block-block-7 h2 {
 	margin-right: 20px;
 	margin-left: 20px;
 	float: left;
