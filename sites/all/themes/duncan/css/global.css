@@ -425,3 +425,7 @@ tr.odd:hover td.active {
 .item-list .pager {
 	text-align: center;
 }
+.node-type-service-page .field-name-field-image .field-item {
+    display: inline-block;
+    margin-right: 20px;
+}
